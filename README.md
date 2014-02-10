@@ -77,11 +77,9 @@ void loop(){
 PINS
 ======
 
-NES
 ![NES](/nes.png "Pins de NES")
 ----------------------
-SNES
-![SNES](/nes.png "Pins de SNES")
+![SNES](/snes.png "Pins de SNES")
 
 
 
