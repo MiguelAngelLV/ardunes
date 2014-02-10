@@ -74,4 +74,15 @@ void loop(){
 
 ```
 
+PINS
+======
+
+NES
+![NES](/nes.png "Pins de NES")
+----------------------
+SNES
+![SNES](/nes.png "Pins de SNES")
+
+
+
   [1]: https://code.google.com/p/nespad/%20NESPad
