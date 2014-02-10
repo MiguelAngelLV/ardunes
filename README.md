@@ -2,7 +2,13 @@ ArduNES
 =========
 ArduNES es una librería encargada de leer los gamepads de NES y SNES desde un Arduino y simular un Joystick virtual en un PC.
 
-Partiendo del códgio de [NESPad][1] he creado una librería más fácil de utilizar y con la posibilidad de no solo leer el pad, si no simular uno en PC.
+Partiendo del código de [NESPad][1] he creado una librería más fácil de utilizar y con la posibilidad de no solo leer el pad, si no simular uno en PC.
+
+Requisitos
+==========
+Para simular un Joystick es necesario una placa con chip ATMega32u4, como la Leonardo, puesto que estas permiten simular un disposito HID directamente. 
+
+Si la placa no soporta este modo, aún podrás usarlo para leer valores de los mandos (Evita usar los métodos initJoystick y setJoystick).
 
 Uso
 ====
